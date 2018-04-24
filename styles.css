@@ -7,3 +7,8 @@ body {
 img {
     border-radius: 8px;
 }
+
+.tagline {
+    font-family: cursive;
+    font-size: 18px
+}

@@ -8,12 +8,12 @@ img {
     border-radius: 8px;
 }
 
-.title {
+title {
     font-weight: bold;
     color: purple;
 }
 
-.tagline {
+tagline {
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: normal;

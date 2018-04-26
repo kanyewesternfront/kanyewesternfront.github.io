@@ -1,5 +1,5 @@
 body {
-    background-color: #C0A4D2;
+    background-color: #FFE6FF;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 14px;
 }
@@ -12,12 +12,12 @@ img {
     border-radius: 8px;
 }
 
-p.title {
+.title {
     font-weight: bold;
     color: rgb(149, 80, 132);
 }
 
-p.tagline {
+.tagline {
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: normal;

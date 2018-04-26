@@ -1,19 +1,23 @@
 body {
-    background-color: #ffe6ff;
-    font-family: Arial, sans-serif;
+    background-color: #C0A4D2;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 14px;
+}
+
+h1 {
+
 }
 
 img {
     border-radius: 8px;
 }
 
-title {
+p.title {
     font-weight: bold;
-    color: purple;
+    color: rgb(149, 80, 132);
 }
 
-tagline {
+p.tagline {
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: normal;

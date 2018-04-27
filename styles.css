@@ -4,6 +4,10 @@ body {
     font-size: 14px;
 }
 
+#header {
+    background-image:
+}
+
 h1 {
 
 }
@@ -13,12 +17,15 @@ img {
 }
 
 .title {
+    text-align: center;
+    font-size: 24px;
     font-weight: bold;
-    color: rgb(149, 80, 132);
+    color: #998A99;
 }
 
 .tagline {
-    font-family: Arial, sans-serif;
+    text-align: center;
     font-size: 18px;
     font-weight: normal;
+    color: #998A99;
 }

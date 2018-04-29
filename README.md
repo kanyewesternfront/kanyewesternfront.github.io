@@ -1,2 +1,0 @@
-# kanyewesternfront.github.io
-Website

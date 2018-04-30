@@ -72,6 +72,7 @@
 
 	body {
 		background: #f4f4f4;
+		background-image: 
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -683,7 +684,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 1px #cccccc;
+				/* border-top: solid 1px #cccccc; */
 				padding: 0.5em 0;
 			}
 

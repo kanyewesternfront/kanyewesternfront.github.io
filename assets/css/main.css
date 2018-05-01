@@ -625,8 +625,8 @@
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
-				width: 100%;
+		.image.left img, .image.right img {
+			width: 100%;
 			}
 
 		.image.left {
@@ -660,6 +660,13 @@
 			.image.main img {
 				width: 100%;
 			}
+
+			/* .backgroundimage {
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-attachment: fixed;
+			} */
 
 /* List */
 

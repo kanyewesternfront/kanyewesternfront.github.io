@@ -7,9 +7,9 @@ google-ID: 'UA-112-----2'
 
 menu:
 - {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Blog', folder: 'pages', file: 'facts.html'}
+#- {name: 'Blog', folder: 'pages', file: 'facts.html'}
 #- {name: 'Learning Resources', folder: 'pages', file: 'resources.html'}
-- {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
+- {name: 'Writing Samples', folder: 'pages', file: 'writing-samples.html'}
 - {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
 # - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 

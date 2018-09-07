@@ -2,7 +2,7 @@
 layout: post
 title: On Being a Writer
 author: Elizabeth Jellison
-categories:
+categories: blog
 tags: documentation
 image: photos/coffee1.jpg
 ---

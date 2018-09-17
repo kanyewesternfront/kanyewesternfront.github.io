@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Creating a Static Jekyll Site
+title: Creating a Static Website with Jekyll Pages and GitHub
 author: Elizabeth Jellison
 categories: blog
 tags: documentation,
-image:
+image: photos/work1.jpg
 ---
 
 Starting something new is hard. You feel stupid and dumb, and the supposedly simplest tutorials are confusing no matter how many times you read them. That's how I felt learning GitHub and Jekyll, and making the site you are now on.

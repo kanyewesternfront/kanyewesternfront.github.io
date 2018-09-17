@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Static Website with Jekyll Pages and GitHub
+title: Creating a Static Website with Jekyll and GitHub Pages
 author: Elizabeth Jellison
 categories: blog
 tags: documentation,

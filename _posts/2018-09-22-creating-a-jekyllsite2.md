@@ -4,7 +4,7 @@ title: Creating a Static Website with Jekyll Locally
 author: Elizabeth Jellison
 categories: blog
 tags: documentation
-image: photos/screenshot/computer-earphone.jpg
+image: photos/computer-earphone.jpg
 ---
 For this tutorial, I am going to make the assumption (yes, yes, I know) that you have GitHub Desktop, and know what Jekyll is.
 

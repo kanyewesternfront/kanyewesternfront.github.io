@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Static Website with Jekyll and GitHub Pages
+title: Creating a Static Website with Jekyll and GitHub Pages the Easy Way)
 author: Elizabeth Jellison
 categories: blog
 tags: documentation,
@@ -15,59 +15,59 @@ People who have been using the tools they write about forever forget what it's l
 
 But before I get into the tutorial, there are some concepts I want to go over that if you understand, make creating your new page a whole lot easier. They were the questions I had when I started!
 
+### What is a Static Site?
 
-
-### What is Jekyll?
-
-Jekyll is a *static site generator*. It is an offshoot of GitHub which hosts and generates static sites for the users of GitHub Pages.
-
-To understand what a static site generator is, first it helps to know what a *dynamic site* is.
+To understand what a static site is, first it helps to know what a *dynamic site* is.
 
 Dynamic sites are what most people are used to when they go on the internet. When you go to a webpage, the *client* (your computer) makes a request to the *server* (the website) for content, which in turn queries its own *database* for that information. The content is sent back to the server which then loads it into the proper format, and sends it back to the client.
 
 All of that happens the moment you click on a link or go visit a site. To the user the speed is usually instantaneous, assuming you have high speed internet access. In the world of the internet, its actually quite slow. And expensive.
 
-But what if you are maintaining a blog? The content is only updated when you update it, so why do you need to go through all that to get some information that is pretty much...static?  
+Dynamic sites need a lot of different parts to function, like database contact, proxy servers, and load balancing, just to name a few. And the more users the site has, the more complex and expensive it becomes. Think of Facebook and all the servers it needs to host millions of people simultaneously updating their pages. That doesn't come cheap.
 
-Exactly.  
-
-Static sites are just that. Static. The content is made up of plain-text files, also called flat files, usually written in Markdown, and hosted on a server, it's structure already formatted by the code used to build the site. Instead of the content being loaded when you visit the site, queries made to databases, and all the other stuff it takes to run a dynamic site, the content has already been updated and requires only one request from the client to the server. It's fast and takes less effort.
-
-### Why should it matter to me?
-
-Cost, mostly. Dynamic sites take a lot of different parts to run, and the more users it has, the more complex and expensive it becomes. Database contact, proxy servers, and load balancing are just a few of the things that are required for dynamic websites like, Facebook to run.
-
-How do they keep it free and make money?
-
-Well, in the famous words of CEO Mark Zuckerberg:
+So how do they keep it free and make money, you and Senator Orrin Hatch ask?
 
 ![]({{ site.github.url }}/assets/img/photos/screenshots/zuckerberg.gif)
 
 "And I like ads!" said no one ever...
 
-What make static sites an awesome alternative, is that they are cheaper to run and require less space and maintenance. They require a host and a static site generator, and it takes only one server request from the client to the server to retrieve content. Other advantages are version control and the ease of writing in plain text without the need to know any code.
+But what if you are doing something much simpler, like maintaining a blog? The content is only updated when you update it, so why do you need to go through all that to get some information that is pretty much...static?    
 
-Jekyll isn't the only static site generator, but it is owned by GitHub, which provides a unique service, eliminating the need for another service to host your content. GitHub hosts the content for free, leaving more money for you to spend on something else.
+Exactly. This is where static sites come in. Instead of the content being loaded when you visit the site, on static sites the content is already there, requiring only one request from the client to the server. It's faster and much less expensive to run.
+
+### Okay, but then what is Jekyll?
+
+Jekyll is a *static site generator* created by the people at GitHub. It converts plain-text files into HTML, which then generates a static website.
+
+These plain-text files are written in a language called Markdown. In the words of its creator, John Gruber, it is "...an easy-to-read, easy-to-write plain-text" language. Its *syntax*, or set of rules, is simple enough for just about anyone to learn and use, which cannot be said for dynamic sites which require knowledge of HTML, CSS, and JavaScript. For people new to coding or creating websites, that cane be daunting. With Markdown that complexity is eliminated. You don't have to use tags or learn code, making it ideal for creating quick and easy sites.
+
+I know what you're thinking. Without CSS, isn't it just an ugly mess of text with no colors or graphics? Yes. That is why we use themes created for Jekyll by awesome people who know HTML and CSS like the back of their hands. Your Markdown content is wrapped in the template of the theme and then generated into HTML and CSS by Jekyll. Cool, right?
+
+### Why should I use Jekyll?
+
+Jekyll isn't the only static site generator, but it is owned by GitHub, and GitHub provides a unique service in that it hosts your content for free, eliminating the need for another service. That leaves you more money to spend on something else...
 
 Like beer.    
 
 ![]({{ site.github.url }}/assets/img/photos/screenshots/wahoo.gif)
 
+So to summarize, what make static sites an awesome alternative to dynamic sites, is that they are cheaper to run and require less space and maintenance. They need a host and a static site generator, and it takes only one server request from the client to the server to retrieve content. Other advantages are version control and the ease of writing in plain text without the need to know any code.
 
-So if you don't already have a GitHub account, go now and sign up for one!
+So if you don't already have a GitHub account, go now and sign up for one! And
 
-### A few things before we get started...
+### A few things before we begin...
 
-There are two types of GitHub Pages, but for this tutorial I will be focusing on how to create a user page.
+There are two different ways you can maintain your site: locally on your desktop using GitHub desktop, or on GitHub's website.
+Because it is the easiest, I will be focusing on the latter.
 
-Your user page is the page you create under your GitHub account name. It is created under the master branch, and only the master branch.
+Additionally, I will be showing you how to make a user page. Your user page is the page you create under your GitHub account name. It is created under the master branch, and only the master branch.
 The address will be `http(s)://<username>.github.io`, with `username` being replaced with your GitHub account name.
 
  * For example, you are reading this on my GitHub User page, `kanyewesternfront.github.io` with my domain name functioning as my address.
 
-### Creating a User Page the Easy Way
+Okay, let's get started!
 
-Let's get started!
+### Creating a User Page the Easy Way
 
 1. Login to your GitHub account.
 
@@ -81,11 +81,13 @@ Let's get started!
 
 ![]({{ site.github.url }}/assets/img/photos/screenshots/new-repo-name.png)
 
-(I did not add the "o" to the end of the name because that repository already exists, but you need to!)
+(I did not add the "o" to the end of the name for this screenshot because that repository already exists, but you need to!)
+
+![]({{ site.github.url }}/assets/img/photos/screenshots/readme_checkbox.png)
 
 4. Select **Public**
 
-5. Check **Initialize this repository...**
+5. Check **Initialize this repository with a README...**
 
 6. Click **Create Repository**.
 

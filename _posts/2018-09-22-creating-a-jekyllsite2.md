@@ -44,7 +44,7 @@ Example:
 
 4. Select **Public**
 
-5. Check **Initialize this repository with a README...**
+5. Check **Initialize this repository with a README**.
 
 6. Click **Create Repository**.
 
@@ -126,4 +126,8 @@ If everything was done correctly, you should have a webpage!
 
 Every change you make will be done through your text editor and committed through GitHub Desktop.
 
-Congratulations! You have made a static web page where you can write and post content. If you are unsure how to make changes to the files of your page, google search is your friend. Or you can ask someone if you are lucky enough to know a person who can help you. I ask my husband all the time!
+Congratulations! You have made a static web page where you can write and post content!
+
+![]({{ site.github.url }}/assets/img/photos/screenshots/pumpkindance.gif)
+
+If you are unsure how to make changes to the files of your page, google search is your friend. Or you can ask someone if you are lucky enough to know a person who can help you. I ask my husband all the time.

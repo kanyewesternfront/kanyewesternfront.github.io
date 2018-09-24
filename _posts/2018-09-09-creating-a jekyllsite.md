@@ -39,7 +39,7 @@ Exactly. This is where static sites come in. Instead of the content being loaded
 
 Jekyll is a *static site generator* created by the people at GitHub. It converts plain-text files into HTML, which then generates a static website.
 
-These plain-text files are written in a language called Markdown. In the words of its creator, John Gruber, it is "...an easy-to-read, easy-to-write plain-text" language. Its *syntax*, or set of rules, is simple enough for just about anyone to learn and use, which cannot be said for dynamic sites which require knowledge of HTML, CSS, and JavaScript. For people new to coding or creating websites, that cane be daunting. With Markdown that complexity is eliminated. You don't have to use tags or learn code, making it ideal for creating quick and easy sites.
+These plain-text files are written in a language called Markdown. In the words of its creator, John Gruber, it is "...an easy-to-read, easy-to-write plain-text" language. Its *syntax*, or set of rules, is simple enough for just about anyone to learn and use, which cannot be said for dynamic sites which require knowledge of HTML, CSS, and JavaScript. For people new to coding or creating websites, that can be daunting. With Markdown that complexity is eliminated. You don't have to use tags or learn code, making it ideal for creating quick and easy sites.
 
 I know what you're thinking. Without CSS, isn't it just an ugly mess of text with no colors or graphics? Yes. That is why we use themes created for Jekyll by awesome people who know HTML and CSS like the back of their hands. Your Markdown content is wrapped in the template of the theme and then generated into HTML and CSS by Jekyll. Cool, right?
 

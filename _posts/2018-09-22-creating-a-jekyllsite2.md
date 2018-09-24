@@ -28,23 +28,29 @@ To create a user page:
 
 1. Name the repository using the following format: `<username>.github.io`, replacing `username` with your GitHub account name.
 
-  - NOTE: You **MUST** name your user page with the same name as your GitHub account or it will not work.
+  * NOTE: You **MUST** name your user page with the same name as your GitHub account or it will not work.
+
+The address will be `http(s)://<username>.github.io`, with `username` being replaced with your GitHub account name.
+
+  * NOTE: You are reading this on my GitHub User page, `kanyewesternfront.github.io` with my domain name functioning as my address. For more information about GitHub and custom domains, go [here](https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/)
 
 To create a project page:
 
-1. Name the repository whatever you wish. Jekyll will even recommend you a name if you can't think of one yourself.
+2. Name the repository whatever you wish. Jekyll will even recommend you a name if you can't think of one yourself.
 
 Example:
 
 ![]({{ site.github.url }}/assets/img/photos/screenshots/new_repo_name2.png)
 
-  I went along and let Jekyll choose my project page name.
+I went along and let Jekyll choose my project page name.
+
+The address will be `http(s)://<username>.github.io/<projectname>`, with `username` being replaced with your GitHub account name, and `projectname` replaced with your project's name.
 
 ![]({{ site.github.url }}/assets/img/photos/screenshots/readme_checkbox.png)
 
 4. Select **Public**
 
-5. Check **Initialize this repository with a README**.
+5. You can check **Initialize this repository with a README**, but you don't have to, as we will write over it later.
 
 6. Click **Create Repository**.
 
@@ -80,7 +86,7 @@ Now is the fun part! You need to find a theme for your blog. Google search "Jeky
 
 16. Navigate to your project folder and paste.
 
-NOTE: If a box pops up asking if you want to replace the existing readme file with a new one, click **Replace**.
+    * NOTE: If a box pops up asking if you want to replace the existing readme file with a new one, click **Replace**.
 
 Your folder should look something like this:
 
@@ -92,11 +98,14 @@ Before we continue, we need to access some hidden files.
 
 2. To show hidden files, press `command` + `shift` + `.`
 
-3. A folder called **.gitignore** will appear. Copy this folder and paste into your user/project folder.
+3. A file called **.gitignore** will appear. Copy this file and paste into your user/project folder.
+
+    * NOTE: .gitignore specifies the files and folders that shall not be committed to git repo such as the locally generated static site html files.
+
 
 4. Go to terminal and navigate to your project folder.
 
-NOTE: If you don't know how to use the terminal, you can find helpful tutorials my googling them.
+    * NOTE: If you don't know how to use the terminal, you can find helpful tutorials my googling them.
 
 5. Once you are in the folder, type in the command line: `bundle exec jekyll serve`.
 
@@ -116,11 +125,16 @@ This is what your website will look like once you commit any changes you make.
 
 12. In the Summary box, you must write a brief note about the changes you made.
 
-13.Click **Commit to Master**
+13. Click **Commit to Master**
 
 14. Click **Fetch/Push origin**
 
-15. After it finishes committing, navigate to your website url. In my case it is http://elizabethjellison.com/legendary-dollop/
+    * NOTE: Remember when generating the site locally on the terminal we had to run `bundle exec jekyll serve`?  The cool think about GitHub Desktop is that it triggers the static generation for you, through the **Push** button.   
+
+15. After it finishes committing, navigate to your website url. In my case it is [http://elizabethjellison.com/legendary-dollop/](http://elizabethjellison.com/legendary-dollop/)
+
+Remember, I have a custom domain. If I didn't, it would look like this:
+kanyewesternfront.git.io/legendary-dollop
 
 If everything was done correctly, you should have a webpage!
 

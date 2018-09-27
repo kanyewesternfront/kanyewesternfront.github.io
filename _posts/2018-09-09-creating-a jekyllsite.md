@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Static Website with Jekyll and GitHub Pages the Easy Way)
+title: Creating a Static Website with Jekyll and GitHub Pages the Easy Way
 author: Elizabeth Jellison
 categories: blog
 tags: documentation,
@@ -37,7 +37,7 @@ Exactly. This is where static sites come in. Instead of the content being loaded
 
 ### Okay, but then what is Jekyll?
 
-Jekyll is a *static site generator* created by the people at GitHub. It converts plain-text files into HTML, which then generates a static website.
+Jekyll is a *static site generator* created by the people at GitHub. It converts plain-text files into HTML and CSS, which is the generated static website.
 
 These plain-text files are written in a language called Markdown. In the words of its creator, John Gruber, it is "...an easy-to-read, easy-to-write plain-text" language. Its *syntax*, or set of rules, is simple enough for just about anyone to learn and use, which cannot be said for dynamic sites which require knowledge of HTML, CSS, and JavaScript. For people new to coding or creating websites, that can be daunting. With Markdown that complexity is eliminated. You don't have to use tags or learn code, making it ideal for creating quick and easy sites.
 
@@ -113,3 +113,5 @@ This is a very simple one page site, and the README file is where you will inser
 Make sure to read through the instructions contained in the README file before you edit them out. There is good information on how to use Markdown, how to edit, and how to change your theme.
 
 Good luck!
+
+For a more advanced way of creating a Jekyll site with themes, [go on to my next post!]({{ site.github.url }}/blog/creating-a-jekyllsite2.html)
